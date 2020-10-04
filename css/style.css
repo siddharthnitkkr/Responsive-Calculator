@@ -1,0 +1,107 @@
+
+*{
+    top: 0;
+    margin:0;
+}
+.baground{    
+
+    height: 100vh;
+    border: 3px solid black;
+    background-image: url(/img/math.jpg);
+    
+    
+    
+}
+.space{
+    height:5%;
+}
+
+.main-box{
+    border: 3px solid white;
+    height: 67%;
+    width: 32%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+  
+}
+.screen{
+
+    border: 3px solid white;
+    margin: 14px;
+    height: 21%;
+    background-color: grey;
+    font-size: 50px;
+    text-align: right;
+    padding-right: 8px;
+
+
+
+
+}
+
+.button-box{
+    border: 3px solid white;
+    height: 68%;
+    margin: 13px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+    width: 21%;
+    height: 15%;
+    margin: 2px 5px 2px 6px;
+    background: none;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px; 
+
+}
+
+.btn{
+    width: 47%;
+    margin: 10px 0px 8px 5px;
+    justify-content: center;
+    text-align: center;
+    background: none;
+    color: white;
+}
+
+
+@media only screen and (max-width:1178px)
+{
+
+    
+   .main-box{
+    width: 75%;
+    height:60%;
+   }
+   .screen{
+       height: 17%;
+   }
+   .button-box{
+    height: 67%;
+   }
+   button{
+    height: 12%;
+    width: 18%;
+    margin: 6px 7px 3px 6px;
+
+   }
+  
+
+
+   .btn{
+    width: 47%;
+   }
+
+
+   .space{
+    height:10%;
+}
+
+
+
+}
