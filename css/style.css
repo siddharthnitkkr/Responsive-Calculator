@@ -7,7 +7,7 @@
 
     height: 100vh;
     border: 3px solid black;
-  
+   
     background:rgba(0,0,0,0.7) url('../img/math.jpg');
     
     
@@ -76,11 +76,12 @@ button{
 
     
    .main-box{
-    width: 75%;
-    height:60%;
+    width: 86%;
+    height:74%;
    }
    .screen{
        height: 17%;
+       font-size: 37px;
    }
    .button-box{
     height: 67%;
